@@ -1,11 +1,12 @@
 import { Img, Logo, Eyebrow } from "../ui";
+import nlcga from "../../assets/images/nlcga1.png";
 
 export default function About() {
   return (
     <>
       <section id="nlcga" className="sec wrap about">
         <aside>
-          <Logo k="nlcga" text="NLCGA" cls="flame big" />
+          <img src={nlcga} alt="NLCGA" className="nlcga-about" />
           <a className="lnk" href="https://nlcga.com" target="_blank" rel="noreferrer">Visit the NLCGA website at nlcga.com ↗</a>
           <Img k="about" alt="Refinery pipes at sunset" className="r16 about-img" grad="linear-gradient(160deg,#f4a022,#3a2a2a 60%,#12294d)" />
         </aside>
