@@ -1,6 +1,10 @@
 import { useState } from "react";
-import { Logo } from "../ui";
+// import { Logo } from "../ui";
 import { NAV } from "../../data";
+// import cognitus from "../../assets/images/cognitus-logo.png";
+import coursera from "../../assets/images/Coursera-Logo.png";
+import nlcga from "../../assets/images/nlcga1.png";
+
 
 export default function Header() {
   const [menu, setMenu] = useState(false);
@@ -8,12 +12,16 @@ export default function Header() {
     <>
       <header className="top wrap">
         <div className="brand">
-          <Logo k="nlcga" text="NLCGA" cls="flame" />
+          <img src={nlcga} alt="NLCGA" className="nlcga" />
           <span className="vr" />
           <span className="brand-t">Nigeria Liquefied and Compressed Gases Association</span>
         </div>
-        <Logo k="ignite" text="ignite" cls="ig-wm" />
-        <Logo k="coursera" text="coursera" cls="co-wm" />
+        <div className="ignite-logo">
+          <span>ign</span>
+          <img src={nlcga} alt="NLCGA" />
+          <span>te</span>
+        </div>        
+        <img src={coursera} alt="coursera" className="coursera" />
       </header>
       <nav className="nav">
         <button className="burger" aria-expanded={menu} onClick={() => setMenu(!menu)}>Menu ☰</button>

@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { Img, Logo } from "../ui";
+import nlcga from "../../assets/images/nlcga1.png";
+import coursera from "../../assets/images/Coursera-Logo1.png";
+import cognitus from "../../assets/images/cognitus-logo.png";
 
 export default function Hero() {
   const [open, setOpen] = useState(false);
@@ -17,7 +20,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-side">
-            <div className="chip"><Logo k="nlcga" text="NLCGA" cls="flame" /><span className="vr" /><Logo k="coursera" text="coursera" cls="co-wm" /></div>
+            <div className="chip"><img src={nlcga} alt="NLCGA" className="nlcga-hero" /><span className="vr" /><img src={coursera} alt="coursera" className="coursera" /></div>
             <Img k="hero" alt="LNG carrier at night" className="r16 hero-img" grad="linear-gradient(160deg,#0b1d3a,#c98a5a 55%,#0b1d3a)" />
           </div>
         </div>
@@ -32,7 +35,7 @@ export default function Hero() {
             <p className="muted">Member price</p>
             <a className="lnk" href="mailto:secretariat@nlcga.com">Contact NLCGA Secretariat</a>
           </div>
-          <div className="strat"><span>STRATEGIC PARTNER</span><Logo k="cognitus" text="COGNITUS" cls="cog" /></div>
+          <div className="strat"><span>STRATEGIC PARTNER</span><img src={cognitus} alt="Cognitus" className="cog" /></div>
         </div>
         <div className="stripe" />
       </section>

@@ -10,7 +10,7 @@ export default function About() {
           <Img k="about" alt="Refinery pipes at sunset" className="r16 about-img" grad="linear-gradient(160deg,#f4a022,#3a2a2a 60%,#12294d)" />
         </aside>
         <div>
-          <Eyebrow>01 · ABOUT NLCGA</Eyebrow>
+          <Eyebrow>ABOUT NLCGA</Eyebrow>
           <h2 className="h2">The voice of Nigeria's liquefied and compressed gases industry.</h2>
           <p>The Nigeria Liquefied &amp; Compressed Gases Association (NLCGA) is the national trade association for companies across the gas value chain — from import terminals, bottling plants and haulage to CNG stations, conversion workshops, equipment suppliers and retail.</p>
           <p>Founded as the Nigeria LPG Association (NLPGA) in the early 2000s to grow domestic LPG use, the association widened its remit in 2024. Members voted to become NLCGA in September 2024, and the new identity was unveiled at the 14th NLCGA Conference &amp; Exhibition in Lagos in November 2024 — bringing LPG, CNG, LNG, hydrogen and biogas under one roof, in step with Nigeria's Decade of Gas.</p>
