@@ -8,7 +8,7 @@ export default function Institute() {
         <div className="sec wrap">
           <div className="split">
             <div>
-              <Eyebrow>02 · THE IGNITE INSTITUTE</Eyebrow>
+              <Eyebrow>THE IGNITE INSTITUTE</Eyebrow>
               <h2 className="h2">One institute for a safer, more skilled gas workforce.</h2>
               <p>The IGNITE Institute is NLCGA's learning and professional development arm. As the industry moves from LPG into CNG, LNG, hydrogen and biogas, members need practical upskilling, clear safety guidance and credible proof of compliance. IGNITE brings these together in one place — built on Coursera's global catalogue, extended with energy executive education from leading universities, and delivered locally by Cognitus Consulting Global.</p>
             </div>

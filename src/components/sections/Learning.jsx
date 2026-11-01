@@ -1,4 +1,5 @@
 import { Img, Logo, Eyebrow, Bullets } from "../ui";
+import coursera from "../../assets/images/Coursera-Logo1.png";
 
 export default function Learning() {
   return (
@@ -6,7 +7,7 @@ export default function Learning() {
       <section id="solutions" className="sec wrap">
         <div className="split">
           <div>
-            <Eyebrow>03 · LEARNING SOLUTIONS</Eyebrow>
+            <Eyebrow>LEARNING SOLUTIONS</Eyebrow>
             <h2 className="h2">Learning that fits the way your people work.</h2>
             <p>From frontline crews to the boardroom, IGNITE offers four ways to learn — each one available to NLCGA member companies and their staff.</p>
           </div>
@@ -14,7 +15,7 @@ export default function Learning() {
         </div>
         <div className="grid2">
           <article className="panel">
-            <Logo k="coursera" text="coursera" cls="co-wm lg" />
+            <img src={coursera} alt="Coursera" className="coursera" />
             <h3>Coursera for Business</h3>
             <p>Coursera is the world's most comprehensive skills development and strategic human performance platform, delivering cost-effective, self-paced, stackable courses, Specializations and Professional Certificates. Learners study with Coursera's elite ecosystem of globally ranked universities and the world's leading technology corporations.</p>
             <div className="stats">

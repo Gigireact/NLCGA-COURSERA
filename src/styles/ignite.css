@@ -1199,6 +1199,7 @@
   align-items: start;
   gap: 10px;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .about aside {
@@ -1211,7 +1212,8 @@
   max-width: 100%;
   height: auto;
   object-fit: contain;
-  margin-bottom: 0;
+  object-position: left;
+  margin: 0;
 }
 
 .about .lnk {
@@ -1220,7 +1222,7 @@
 }
 
 .about-img {
-  width: 100%;
+  width: 80%;
   height: auto;
   object-fit: cover;
 }
@@ -1228,7 +1230,7 @@
 .about .h2 {
   font-size: clamp(2rem, 3vw, 2.8rem);
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .about p {
@@ -1242,6 +1244,7 @@
 
 .about .pills {
   gap: 12px;
+  margin-top: 20px;
 }
 
 /* TABLET AND MOBILE */
@@ -1273,4 +1276,97 @@
   .about-img {
     aspect-ratio: 16 / 9;
   }
+}
+
+/* ==============================
+   INSTITUTION SECTION
+============================== */
+
+#institute {
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* Institute heading */
+#institute .h2 {
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+/* Institute paragraphs */
+#institute p {
+  font-size: clamp(1.05rem, 1.3vw, 1.2rem);
+  line-height: 1.75;
+}
+#institute .how {
+  display: block;
+  margin-bottom: 50px !important;
+}
+
+
+
+/* ==============================
+   LEARNING SOLUTIONS SECTION
+============================== */
+
+
+#solutions {
+  margin-bottom: 100px;
+}
+/* Learning Solutions heading */
+#solutions .h2 {
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+/* Learning Solutions paragraphs */
+#solutions p {
+  font-size: clamp(1.05rem, 1.3vw, 1.2rem);
+  line-height: 1.75;
+}
+/* All headings in Learning Solutions */
+#solutions h2 {
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  line-height: 1.2;
+}
+
+#solutions h3 {
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  margin-top: 0;
+}
+
+/* All paragraphs */
+#solutions p {
+  font-size: clamp(1.05rem, 1.3vw, 1.2rem);
+  line-height: 1.75;
+}
+
+/* All list items */
+#solutions li {
+  font-size: clamp(1rem, 1.2vw, 1.1rem);
+  line-height: 1.65;
+}
+
+/* Statistics */
+#solutions .stats b {
+  font-size: 1.5rem;
+}
+
+#solutions .stats span {
+  font-size: 1rem;
+}
+
+/* Tags */
+#solutions .tag {
+  font-size: 0.9rem;
+}
+#solutions .coursera {
+  display: block;
+  width: 180px;
+  height: auto;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 0;
 }
