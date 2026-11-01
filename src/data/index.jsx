@@ -13,8 +13,8 @@ export const STEPS = [
 ];
 export const PARTNERS = [
   ["coursera", "Coursera", "coursera", "One of the world's largest online learning platforms, working with leading universities and companies. Coursera powers IGNITE's online catalogue, enterprise licences, skills tracking and certificates."],
-  ["ut", "Texas Engineering Executive Education — Cockrell School of Engineering, The University of Texas at Austin", "ut", "The Cockrell School is one of the leading engineering schools in the United States, based in a global energy capital. Through Texas Engineering Executive Education, it brings professional programmes in energy, engineering and technical leadership to IGNITE learners."],
-  ["thunderbird", "Thunderbird School of Global Management, Arizona State University", "tb", "A pioneer in global management education, Thunderbird develops leaders who can operate across borders and markets. Its programmes bring global leadership, strategy and management skills to NLCGA executives and managers."],
+  ["cockrell", "Texas Engineering Executive Education — Cockrell School of Engineering, The University of Texas at Austin", "ut", "The Cockrell School is one of the leading engineering schools in the United States, based in a global energy capital. Through Texas Engineering Executive Education, it brings professional programmes in energy, engineering and technical leadership to IGNITE learners."],
+  ["tb", "Thunderbird School of Global Management, Arizona State University", "tb", "A pioneer in global management education, Thunderbird develops leaders who can operate across borders and markets. Its programmes bring global leadership, strategy and management skills to NLCGA executives and managers."],
   ["cognitus", "Cognitus Consulting Global", "cog", "IGNITE's strategic delivery partner and Coursera Channel Partner. Cognitus manages licence ordering and provisioning, learner onboarding and HR + Learning Solutions Consulting for NLCGA member companies."],
 ];
 export const SERVICES = [

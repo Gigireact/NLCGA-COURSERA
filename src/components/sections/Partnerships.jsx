@@ -1,5 +1,9 @@
 import { Img, Logo, Eyebrow } from "../ui";
 import { PARTNERS } from "../../data";
+import coursera from "../../assets/images/Coursera-Logo1.png";
+import cognitus from "../../assets/images/cognitus-logo.png";
+import thunderbird from "../../assets/images/logo-thunderbird-asu.png";
+import cockrell from "../../assets/images/RGB_formal_Cockrell.png";
 
 export default function Partnerships() {
   return (
@@ -8,7 +12,7 @@ export default function Partnerships() {
         <div className="sec wrap">
           <div className="split">
             <div>
-              <Eyebrow>04 · STRATEGIC PARTNERSHIPS</Eyebrow>
+              <Eyebrow>STRATEGIC PARTNERSHIPS</Eyebrow>
               <h2 className="h2">World-class institutions, working for Nigeria's gas sector.</h2>
               <p>IGNITE brings together a global learning platform, two leading US universities and a local delivery partner — so NLCGA members get world-class content with on-the-ground support.</p>
             </div>
@@ -16,8 +20,17 @@ export default function Partnerships() {
           </div>
           {PARTNERS.map(([k, t, cls, d]) => (
             <article key={t} className="prt">
-              <div className="prt-logo"><Logo k={k} text={{ coursera: "coursera", ut: "Cockrell School of Engineering", tb: "THUNDERBIRD | ASU", cog: "COGNITUS" }[cls] || t} cls={cls === "cog" ? "cog" : cls === "coursera" ? "co-wm lg" : "serif"} /></div>
-              <div><h3>{t}</h3><p className="sm">{d}</p></div>
+              <div className="prt-logo">
+                {k === "coursera" && <img src={coursera} alt="Coursera logo" />}
+                {k === "cockrell" && <img src={cockrell} alt="University of Texas logo" />}
+                {k === "tb" && <img src={thunderbird} alt="Thunderbird logo" />}
+                {k === "cognitus" && <img src={cognitus} alt="Cognitus logo" />}
+              </div>
+
+              <div>
+                <h3>{t}</h3>
+                <p className="sm">{d}</p>
+              </div>
             </article>
           ))}
         </div>
