@@ -7,7 +7,7 @@ export default function Consulting() {
       <section id="consulting" className="dark">
         <div className="sec wrap">
           <div className="cta-row">
-            <div><Eyebrow light>05 · HR + LEARNING SOLUTIONS CONSULTING</Eyebrow><h2 className="h2 w">More than licences: a partner for your people strategy.</h2>
+            <div><Eyebrow light>HR + LEARNING SOLUTIONS CONSULTING</Eyebrow><h2 className="h2 w">More than licences: a partner for your people strategy.</h2>
               <p className="lead">Our consultants help member companies turn learning into measurable workforce results — from understanding skills gaps to proving compliance to regulators and boards.</p></div>
             <BookConsultation />
           </div>

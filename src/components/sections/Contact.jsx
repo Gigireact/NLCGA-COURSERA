@@ -6,7 +6,7 @@ export default function Contact() {
       <section id="contact" className="alt">
         <div className="sec wrap contact">
           <div>
-            <Eyebrow>07 · CONTACT US</Eyebrow>
+            <Eyebrow>CONTACT US</Eyebrow>
             <h2 className="h2">Talk to the IGNITE Programme Office.</h2>
             <p>Questions about licences, executive programmes, consulting or the survey? Our team will help you choose the right option for your company.</p>
             <BookConsultation />

@@ -4,6 +4,7 @@ import { NAV } from "../../data";
 // import cognitus from "../../assets/images/cognitus-logo.png";
 import coursera from "../../assets/images/Coursera-Logo.png";
 import nlcga from "../../assets/images/nlcga1.png";
+import ignite from "../../assets/images/ignite-logo3.png";
 
 
 export default function Header() {
@@ -17,9 +18,7 @@ export default function Header() {
           <span className="brand-t">Nigeria Liquefied and Compressed Gases Association</span>
         </div>
         <div className="ignite-logo">
-          <span>ign</span>
-          <img src={nlcga} alt="NLCGA" />
-          <span>te</span>
+          <img src={ignite} alt="IGNITE logo" className="ignite" />
         </div>        
         <img src={coursera} alt="coursera" className="coursera" />
       </header>

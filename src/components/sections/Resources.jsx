@@ -5,9 +5,10 @@ export default function Resources() {
   return (
     <>
       <section id="resources" className="sec wrap">
-        <Eyebrow>06 · RESOURCES</Eyebrow>
+        <Eyebrow>RESOURCES</Eyebrow>
         <h2 className="h2">Get started with IGNITE.</h2>
-        <p>Download the two documents below. Return completed forms to the NLCGA IGNITE Programme Office at <a className="lnk" href="mailto:secretariat@nlcga.com">secretariat@nlcga.com</a>, copying <a className="lnk" href="mailto:executivesecretary@nlcga.com">executivesecretary@nlcga.com</a>.</p>
+        <p>Download the two documents below. Return completed forms to the NLCGA IGNITE Programme </p>
+        <p>Office at <a className="lnk" href="mailto:secretariat@nlcga.com">secretariat@nlcga.com</a>, copying <a className="lnk" href="mailto:executivesecretary@nlcga.com">executivesecretary@nlcga.com</a>.</p>
         <div className="grid2">
           <article className="panel top-g">
             <p className="tag green">STEP 1 · TELL US YOUR NEEDS</p><h3>Learning Needs Survey</h3>
