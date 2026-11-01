@@ -1207,7 +1207,7 @@
 
 .nlcga-about {
   display: block;
-  width: 100%;
+  width: 170px;
   max-width: 100%;
   height: auto;
   object-fit: contain;
@@ -1218,6 +1218,7 @@
 .about .lnk {
   display: inline-block;
   margin-top: 0;
+  color: #0066cc;
 }
 
 .about-img {
