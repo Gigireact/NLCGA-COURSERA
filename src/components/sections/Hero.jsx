@@ -34,7 +34,7 @@ export default function Hero() {
           <div className="window">
             <div className="win-row">
               <div><p className="eyebrow green">SPECIAL SUBSCRIPTION WINDOW OPEN</p><h2>5 November – 15 December 2026</h2></div>
-              <button className="btn gold sm" aria-expanded={open} onClick={() => setOpen(!open)}>Learn more {open ? "⌃" : "⌄"}</button>
+              <button className="btn gold sm" aria-expanded={open} onClick={() => setOpen(!open)}>Learn more {open ? "^" : "⌄"}</button>
             </div>
             {open && <p className="win-more">Licences are open to NLCGA member companies in good standing. Cleared payment is required by 15 December 2026.</p>}
             <hr />
