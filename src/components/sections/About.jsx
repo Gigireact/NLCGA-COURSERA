@@ -1,5 +1,6 @@
 import { Img, Logo, Eyebrow } from "../ui";
 import nlcga from "../../assets/images/nlcga1.png";
+import app2 from "../../assets/images/app2.png";
 
 export default function About() {
   return (
@@ -8,7 +9,13 @@ export default function About() {
         <aside>
           <img src={nlcga} alt="NLCGA" className="nlcga-about" />
           <a className="lnk" href="https://nlcga.com" target="_blank" rel="noreferrer">Visit the NLCGA website at nlcga.com ↗</a>
-          <Img k="about" alt="Refinery pipes at sunset" className="r16 about-img" grad="linear-gradient(160deg,#f4a022,#3a2a2a 60%,#12294d)" />
+          <Img
+            k="about"
+            alt="Refinery pipes at sunset"
+            className="r16 about-img"
+            src={app2}
+            grad="linear-gradient(160deg,#f4a022,#3a2a2a 60%,#12294d)"
+          />       
         </aside>
         <div>
           <Eyebrow>ABOUT NLCGA</Eyebrow>

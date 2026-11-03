@@ -1548,3 +1548,14 @@
   max-height: 55px;
   object-fit: contain;
 }
+
+/* CONSULTING WIDE IMAGE */
+.ig .wide-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  aspect-ratio: auto;
+  object-fit: contain;
+  border-radius: 16px;
+}

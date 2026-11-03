@@ -3,6 +3,7 @@ import { Img, Logo } from "../ui";
 import nlcga from "../../assets/images/nlcga1.png";
 import coursera from "../../assets/images/Coursera-Logo1.png";
 import cognitus from "../../assets/images/cognitus-logo.png";
+import app1 from "../../assets/images/app1.png";
 
 export default function Hero() {
   const [open, setOpen] = useState(false);
@@ -21,7 +22,12 @@ export default function Hero() {
           </div>
           <div className="hero-side">
             <div className="chip"><img src={nlcga} alt="NLCGA" className="nlcga-hero" /><span className="vr" /><img src={coursera} alt="coursera" className="coursera" /></div>
-            <Img k="hero" alt="LNG carrier at night" className="r16 hero-img" grad="linear-gradient(160deg,#0b1d3a,#c98a5a 55%,#0b1d3a)" />
+            <img
+              k="hero"
+              alt="LNG carrier at night"
+              className="r16 hero-img"
+              src={app1}
+            />          
           </div>
         </div>
         <div className="wrap">

@@ -1,5 +1,6 @@
 import { Img, Eyebrow } from "../ui";
 import { PILLARS, STEPS } from "../../data";
+import app3 from "../../assets/images/app3.png";
 
 export default function Institute() {
   return (
@@ -12,7 +13,7 @@ export default function Institute() {
               <h2 className="h2">One institute for a safer, more skilled gas workforce.</h2>
               <p>The IGNITE Institute is NLCGA's learning and professional development arm. As the industry moves from LPG into CNG, LNG, hydrogen and biogas, members need practical upskilling, clear safety guidance and credible proof of compliance. IGNITE brings these together in one place — built on Coursera's global catalogue, extended with energy executive education from leading universities, and delivered locally by Cognitus Consulting Global.</p>
             </div>
-            <Img k="institute" alt="Two learners reading together" className="r16 split-img" grad="linear-gradient(135deg,#2a6fa8,#e8b98a)" />
+            <Img k="institute" alt="Two learners reading together" className="r16 split-img" src={app3} grad="linear-gradient(135deg,#2a6fa8,#e8b98a)" />
           </div>
           <div className="cards3">
             {PILLARS.map(([c, t, d, wide]) => (

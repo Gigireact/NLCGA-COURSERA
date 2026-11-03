@@ -1,5 +1,6 @@
 import { Img, Logo, Eyebrow, Bullets } from "../ui";
 import coursera from "../../assets/images/Coursera-Logo1.png";
+import app4 from "../../assets/images/app4.png";
 
 export default function Learning() {
   return (
@@ -11,7 +12,7 @@ export default function Learning() {
             <h2 className="h2">Learning that fits the way your people work.</h2>
             <p>From frontline crews to the boardroom, IGNITE offers four ways to learn — each one available to NLCGA member companies and their staff.</p>
           </div>
-          <Img k="solutions" alt="Smiling worker in hard hat" className="r16 split-img" grad="linear-gradient(135deg,#f7b844,#d9772b)" />
+          <Img k="solutions" alt="Smiling worker in hard hat" className="r16 split-img" src={app4} grad="linear-gradient(135deg,#f7b844,#d9772b)" />
         </div>
         <div className="grid2">
           <article className="panel">
